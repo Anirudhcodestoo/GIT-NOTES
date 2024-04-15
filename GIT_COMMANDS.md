@@ -14,4 +14,11 @@
 13. git push  -u origin master 
 14. git config -l   (tells all info about git rep username emial)
 15. q -> exit out of command running 
-16. git config tells about To configure global or repository-specific settings
+16. git config-> tells about To configure global or repository-specific settings
+17. git checkout / git restore <file name> -> roll back changes not yet added to staging area rolls back once to the head or previous and lates change only  almost same but checkkout deletes resotre just restore the change
+Primarily used to switch branches, but also has other uses like discarding changes in the working directory.
+18. git checkout -p
+19. git reset -> removes files from staging area(unstage/ move head pointer and unstage changes)
+20. git reset -p > git asks what to unstage
+21. tocuh <file name.txt/md/py> creates a new file in that repo
+22. git commit --amend --> modifies lates commit
