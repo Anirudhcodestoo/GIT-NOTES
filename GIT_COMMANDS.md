@@ -22,3 +22,23 @@ Primarily used to switch branches, but also has other uses like discarding chang
 20. git reset -p > git asks what to unstage
 21. tocuh <file name.txt/md/py> creates a new file in that repo
 22. git commit --amend --> modifies lates commit
+23. git revert commit_id
+24. git log -p(patch) --> tells what has been added or removed similar to diff -u since more lines scroll up or down
+25. git show - will take commit id as parameter and shows what changes made there 
+26. git log --stat will show how many lines addedd or removed from  each fil in commit
+27. git add -p
+28. git diff - shows chnages in unstaged files   
+29. git diff --staged shows chnages in files in staging area
+(changes are staged but not commited)
+30. git rm (removes from tracking)
+31. git mv old_file new_file  and then commmit it  ... it can also be used to move fiels
+32. .gitignore
+33. ls -la
+34. 1. git commit -a  - a shortcut to stage any change to tracked files and commit them in one step( DOSENT WORK ON NEW FILES) you cant add new files   
+When you run git commit -a, Git will open the default text editor for you to write a commit message. The new file will not be listed among the changes to be committed.
+After you save and close the editor, Git will create a commit that includes only the modifications to tracked files, excluding the new untracked file.
+35. git branch-> list all brnaches
+36. git branch <new branch name> -> creates new branch
+37. git checkout branch_name->checks out latest snapshot for both files and (switches to new braneche)
+38. git checkout -b new_branch (create new branch and switch to it)
+39. 
