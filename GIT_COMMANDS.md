@@ -40,5 +40,15 @@ After you save and close the editor, Git will create a commit that includes only
 35. git branch-> list all brnaches
 36. git branch <new branch name> -> creates new branch
 37. git checkout branch_name->checks out latest snapshot for both files and (switches to new braneche)
-38. git checkout -b new_branch (create new branch and switch to it)
-39. 
+38. git checkout -b new_branch (create new branch and move to it)
+39. git branch -d --> deleted a branch
+40. git stash --> savses draft while switching branches
+41. git stash pop-> brings back saved stash and removes from stash and brings to the currennt state 
+42. git merge (name of the branch)
+43. git log --graph --oneline ->> gives one line commit info in a graph format
+44. git merge --abort -> sets to prev commit acts like no merge occured (ONGOING MERGE)
+ but if already mereged use git reset --hard HEAD^
+
+
+
+ 
